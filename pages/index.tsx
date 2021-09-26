@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-bold mb-4">
           Perpustakaan Kepak{" "}
           <a
-            href="/"
+            href="#"
             className="text-blue-400 hover:text-blue-500 focus:text-blue-600 hover:underline"
           >
             Sayap Suci
@@ -37,11 +37,13 @@ const Home: NextPage = () => {
 
         <div className="md:flex">
           <Link href="/login">
-            <div className="border p-8 w-56 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
-              <h2 className="text-2xl font-bold flex justify-center items-center">
-                Login &rarr;
-              </h2>
-            </div>
+            <a>
+              <div className="border p-8 w-56 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
+                <h2 className="text-2xl font-bold flex justify-center items-center">
+                  Login &rarr;
+                </h2>
+              </div>
+            </a>
           </Link>
         </div>
       </main>
