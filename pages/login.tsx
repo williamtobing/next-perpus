@@ -47,9 +47,11 @@ const login = () => {
           </div>
 
           <Link href="/">
-            <span className="text-blue-400 hover:text-blue-500 focus:text-blue-600 cursor-pointer">
-              Go Back
-            </span>
+            <a>
+              <span className="text-blue-400 hover:text-blue-500 focus:text-blue-600 cursor-pointer">
+                Go Back
+              </span>
+            </a>
           </Link>
         </div>
       </main>

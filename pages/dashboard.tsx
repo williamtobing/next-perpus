@@ -20,44 +20,54 @@ const dashboard = () => {
       <div className="mt-12">
         <div className="md:flex justify-center">
           <Link href="/genre">
-            <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
-              <h2 className="text-2xl font-bold flex justify-center items-center">
-                Genres &rarr;
-              </h2>
-            </div>
+            <a>
+              <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
+                <h2 className="text-2xl font-bold flex justify-center items-center">
+                  Genres &rarr;
+                </h2>
+              </div>
+            </a>
           </Link>
 
           <Link href="/author">
-            <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
-              <h2 className="text-2xl font-bold flex justify-center items-center">
-                Authors &rarr;
-              </h2>
-            </div>
+            <a>
+              <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
+                <h2 className="text-2xl font-bold flex justify-center items-center">
+                  Authors &rarr;
+                </h2>
+              </div>
+            </a>
           </Link>
         </div>
 
         <div className="md:flex justify-center">
           <Link href="/book">
-            <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
-              <h2 className="text-2xl font-bold flex justify-center items-center">
-                Books &rarr;
-              </h2>
-            </div>
+            <a>
+              <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
+                <h2 className="text-2xl font-bold flex justify-center items-center">
+                  Books &rarr;
+                </h2>
+              </div>
+            </a>
           </Link>
 
           <Link href="/member">
-            <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
-              <h2 className="text-2xl font-bold flex justify-center items-center">
-                Members &rarr;
-              </h2>
-            </div>
+            <a>
+              <div className="border p-8 md:w-80 rounded-lg hover:border-blue-400 hover:text-blue-400 m-2 cursor-pointer">
+                <h2 className="text-2xl font-bold flex justify-center items-center">
+                  Members &rarr;
+                </h2>
+              </div>
+            </a>
           </Link>
         </div>
 
         <Link href="/">
-          <span className="text-blue-400 flex justify-center cursor-pointer">
-            Go Back
-          </span>
+          <a>
+            <span className="text-blue-400 flex justify-center cursor-pointer">
+              Go Back
+            </span>
+          </a>
         </Link>
       </div>
     </main>
